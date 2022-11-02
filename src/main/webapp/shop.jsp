@@ -1,5 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
 <meta charset="utf-8">
@@ -29,7 +31,6 @@
 <!-- Customized Bootstrap Stylesheet -->
 <link href="style.css" rel="stylesheet">
 </head>
-
 <body>
 	<!-- Topbar Start -->
 	<div class="container-fluid">
@@ -120,9 +121,9 @@
 					<div class="collapse navbar-collapse justify-content-between"
 						id="navbarCollapse">
 						<div class="navbar-nav mr-auto py-0">
-							<a href="index.html" class="nav-item nav-link">Trang chủ</a> <a
-								href="shop.html" class="nav-item nav-link active">Tất cả sản
-								phẩm</a> <a href="contact.html" class="nav-item nav-link">Liên
+							<a href="index.jsp" class="nav-item nav-link">Trang chủ</a> <a
+								href="shop.jsp" class="nav-item nav-link active">Tất cả sản
+								phẩm</a> <a href="contact.jsp" class="nav-item nav-link">Liên
 								hệ</a>
 						</div>
 						<div class="navbar-nav ml-auto py-0">
@@ -136,13 +137,14 @@
 					<div
 						class="d-flex flex-column align-items-center justify-content-center"
 						style="min-height: 300px">
-						<h1 class="font-weight-semi-bold text-uppercase mb-3">Tất cả sản phẩm</h1>
+						<h1 class="font-weight-semi-bold text-uppercase mb-3">Our
+							Shop</h1>
 						<div class="d-inline-flex">
 							<p class="m-0">
-								<a href="">Trang chủ</a>
+								<a href="">Home</a>
 							</p>
 							<p class="m-0 px-2">-</p>
-							<p class="m-0">Tất cả sản phẩm</p>
+							<p class="m-0">Shop</p>
 						</div>
 					</div>
 				</div>
@@ -165,7 +167,7 @@
 			<div class="col-lg-3 col-md-12">
 				<!-- Price Start -->
 				<div class="border-bottom mb-4 pb-4">
-					<h5 class="font-weight-semi-bold mb-4">text</h5>
+					<h5 class="font-weight-semi-bold mb-4">Filter by price</h5>
 					<form>
 						<div
 							class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
@@ -210,7 +212,7 @@
 
 				<!-- Color Start -->
 				<div class="border-bottom mb-4 pb-4">
-					<h5 class="font-weight-semi-bold mb-4">text</h5>
+					<h5 class="font-weight-semi-bold mb-4">Filter by color</h5>
 					<form>
 						<div
 							class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
@@ -255,7 +257,7 @@
 
 				<!-- Size Start -->
 				<div class="mb-5">
-					<h5 class="font-weight-semi-bold mb-4">text</h5>
+					<h5 class="font-weight-semi-bold mb-4">Filter by size</h5>
 					<form>
 						<div
 							class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
@@ -339,7 +341,7 @@
 							</div>
 							<div
 								class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-								<h6 class="text-truncate mb-3">text</h6>
+								<h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
 								<div class="d-flex justify-content-center">
 									<h6>$123.00</h6>
 									<h6 class="text-muted ml-2">
@@ -364,7 +366,7 @@
 							</div>
 							<div
 								class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-								<h6 class="text-truncate mb-3">text</h6>
+								<h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
 								<div class="d-flex justify-content-center">
 									<h6>$123.00</h6>
 									<h6 class="text-muted ml-2">
@@ -389,7 +391,7 @@
 							</div>
 							<div
 								class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-								<h6 class="text-truncate mb-3">text</h6>
+								<h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
 								<div class="d-flex justify-content-center">
 									<h6>$123.00</h6>
 									<h6 class="text-muted ml-2">
@@ -414,7 +416,7 @@
 							</div>
 							<div
 								class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-								<h6 class="text-truncate mb-3">text</h6>
+								<h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
 								<div class="d-flex justify-content-center">
 									<h6>$123.00</h6>
 									<h6 class="text-muted ml-2">
@@ -439,7 +441,7 @@
 							</div>
 							<div
 								class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-								<h6 class="text-truncate mb-3">text</h6>
+								<h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
 								<div class="d-flex justify-content-center">
 									<h6>$123.00</h6>
 									<h6 class="text-muted ml-2">
@@ -464,7 +466,7 @@
 							</div>
 							<div
 								class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-								<h6 class="text-truncate mb-3">text</h6>
+								<h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
 								<div class="d-flex justify-content-center">
 									<h6>$123.00</h6>
 									<h6 class="text-muted ml-2">
@@ -489,7 +491,7 @@
 							</div>
 							<div
 								class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-								<h6 class="text-truncate mb-3">text</h6>
+								<h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
 								<div class="d-flex justify-content-center">
 									<h6>$123.00</h6>
 									<h6 class="text-muted ml-2">
@@ -514,7 +516,7 @@
 							</div>
 							<div
 								class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-								<h6 class="text-truncate mb-3">text</h6>
+								<h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
 								<div class="d-flex justify-content-center">
 									<h6>$123.00</h6>
 									<h6 class="text-muted ml-2">
@@ -539,7 +541,7 @@
 							</div>
 							<div
 								class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-								<h6 class="text-truncate mb-3">text</h6>
+								<h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
 								<div class="d-flex justify-content-center">
 									<h6>$123.00</h6>
 									<h6 class="text-muted ml-2">
@@ -607,32 +609,32 @@
 					<div class="col-md-4 mb-5">
 						<h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
 						<div class="d-flex flex-column justify-content-start">
-							<a class="text-dark mb-2" href="index.html"><i
+							<a class="text-dark mb-2" href="index.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Trang chủ</a> <a
-								class="text-dark mb-2" href="shop.html"><i
+								class="text-dark mb-2" href="shop.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Tất cả sản phẩm</a> <a
-								class="text-dark mb-2" href="detail.html"><i
+								class="text-dark mb-2" href="detail.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Liên hệ</a> <a
-								class="text-dark mb-2" href="cart.html"><i
+								class="text-dark mb-2" href="cart.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Giỏ Hàng</a> <a
-								class="text-dark mb-2" href="checkout.html"><i
+								class="text-dark mb-2" href="checkout.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Thanh toán</a> 
 						</div>
 					</div>
 					<div class="col-md-4 mb-5">
 						<h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
 						<div class="d-flex flex-column justify-content-start">
-							<a class="text-dark mb-2" href="index.html"><i
+							<a class="text-dark mb-2" href="index.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Hoa sinh nhật</a> <a
-								class="text-dark mb-2" href="shop.html"><i
+								class="text-dark mb-2" href="shop.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Hoa chúc mừng</a> <a
-								class="text-dark mb-2" href="detail.html"><i
+								class="text-dark mb-2" href="detail.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Hoa tình yêu</a> <a
-								class="text-dark mb-2" href="cart.html"><i
+								class="text-dark mb-2" href="cart.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Hoa cưới</a> <a
-								class="text-dark mb-2" href="checkout.html"><i
+								class="text-dark mb-2" href="checkout.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Hoa khai trương</a> <a class="text-dark"
-								href="contact.html"><i class="fa fa-angle-right mr-2"></i>Hoa chia buồn</a>
+								href="contact.jsp"><i class="fa fa-angle-right mr-2"></i>Hoa chia buồn</a>
 						</div>
 					</div>
 					<div class="col-md-4 mb-5">
@@ -677,5 +679,4 @@
 	<!-- Template Javascript -->
 	<script src="js/main.js"></script>
 </body>
-
 </html>

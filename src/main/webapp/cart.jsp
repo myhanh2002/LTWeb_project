@@ -1,6 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 <head>
 <meta charset="utf-8">
 <title>shop hoa tươi</title>
@@ -120,9 +124,9 @@
 					<div class="collapse navbar-collapse justify-content-between"
 						id="navbarCollapse">
 						<div class="navbar-nav mr-auto py-0">
-							<a href="index.html" class="nav-item nav-link active">Trang
-								chủ</a> <a href="shop.html" class="nav-item nav-link">Tất cả sản
-								phẩm</a> <a href="contact.html" class="nav-item nav-link">Liên
+							<a href="index.jsp" class="nav-item nav-link active">Trang
+								chủ</a> <a href="shop.jsp" class="nav-item nav-link">Tất cả sản
+								phẩm</a> <a href="contact.jsp" class="nav-item nav-link">Liên
 								hệ</a>
 						</div>
 						<div class="navbar-nav ml-auto py-0">
@@ -340,7 +344,7 @@
 							<h5 class="font-weight-bold">Tổng cộng</h5>
 							<h5 class="font-weight-bold">$160</h5>
 						</div>
-						<a href="checkout.html">
+						<a href="checkout.jsp">
 							<button class="btn btn-block btn-primary my-3 py-3">Thanh
 								toán</button>
 						</a>
@@ -378,32 +382,32 @@
 					<div class="col-md-4 mb-5">
 						<h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
 						<div class="d-flex flex-column justify-content-start">
-							<a class="text-dark mb-2" href="index.html"><i
+							<a class="text-dark mb-2" href="index.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Trang chủ</a> <a
-								class="text-dark mb-2" href="shop.html"><i
+								class="text-dark mb-2" href="shop.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Tất cả sản phẩm</a> <a
-								class="text-dark mb-2" href="detail.html"><i
+								class="text-dark mb-2" href="detail.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Liên hệ</a> <a
-								class="text-dark mb-2" href="cart.html"><i
+								class="text-dark mb-2" href="cart.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Giỏ Hàng</a> <a
-								class="text-dark mb-2" href="checkout.html"><i
+								class="text-dark mb-2" href="checkout.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Thanh toán</a> 
 						</div>
 					</div>
 					<div class="col-md-4 mb-5">
 						<h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
 						<div class="d-flex flex-column justify-content-start">
-							<a class="text-dark mb-2" href="index.html"><i
+							<a class="text-dark mb-2" href="index.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Hoa sinh nhật</a> <a
-								class="text-dark mb-2" href="shop.html"><i
+								class="text-dark mb-2" href="shop.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Hoa chúc mừng</a> <a
-								class="text-dark mb-2" href="detail.html"><i
+								class="text-dark mb-2" href="detail.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Hoa tình yêu</a> <a
-								class="text-dark mb-2" href="cart.html"><i
+								class="text-dark mb-2" href="cart.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Hoa cưới</a> <a
-								class="text-dark mb-2" href="checkout.html"><i
+								class="text-dark mb-2" href="checkout.jsp"><i
 								class="fa fa-angle-right mr-2"></i>Hoa khai trương</a> <a class="text-dark"
-								href="contact.html"><i class="fa fa-angle-right mr-2"></i>Hoa chia buồn</a>
+								href="contact.jsp"><i class="fa fa-angle-right mr-2"></i>Hoa chia buồn</a>
 						</div>
 					</div>
 					<div class="col-md-4 mb-5">
@@ -448,5 +452,4 @@
 	<!-- Template Javascript -->
 	<script src="js/main.js"></script>
 </body>
-
 </html>
